@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const Ajv = require("ajv");
 exports.openApiListResponseSchema = {
-    "id": "http://tradex.techx.vn/market/openApiListResponse",
+    "id": "http://tradex.techx.vn/configuration/openApiListResponse",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "description": "openApiListResponse schema",
     "type": "object",

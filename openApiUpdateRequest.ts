@@ -4,7 +4,7 @@
 */
 import * as Ajv from 'ajv';
 export const openApiUpdateRequestSchema = {
-  "id": "http://tradex.techx.vn/market/openApiUpdateRequest",
+  "id": "http://tradex.techx.vn/configuration/openApiUpdateRequest",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "openApiUpdateRequest schema",
   "type": "object",

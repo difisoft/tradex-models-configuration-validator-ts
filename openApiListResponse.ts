@@ -4,7 +4,7 @@
 */
 import * as Ajv from 'ajv';
 export const openApiListResponseSchema = {
-  "id": "http://tradex.techx.vn/market/openApiListResponse",
+  "id": "http://tradex.techx.vn/configuration/openApiListResponse",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "openApiListResponse schema",
   "type": "object",
