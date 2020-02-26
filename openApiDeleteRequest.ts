@@ -4,7 +4,7 @@
 */
 import * as Ajv from 'ajv';
 export const openApiDeleteRequestSchema = {
-  "id": "http://tradex.techx.vn/market/openApiDeleteRequest",
+  "id": "http://tradex.techx.vn/configuration/openApiDeleteRequest",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "openApiDeleteRequest schema",
   "type": "object",

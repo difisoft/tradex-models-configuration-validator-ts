@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const Ajv = require("ajv");
 exports.openApiDeleteRequestSchema = {
-    "id": "http://tradex.techx.vn/market/openApiDeleteRequest",
+    "id": "http://tradex.techx.vn/configuration/openApiDeleteRequest",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "description": "openApiDeleteRequest schema",
     "type": "object",
