@@ -9,17 +9,20 @@ export const openApiListResponseSchema = {
   "description": "openApiListResponse schema",
   "type": "object",
   "properties": {
-    "scopeId": {
+    "id": {
       "description": "scope Id",
       "type": "number"
     },
     "summary": {
       "description": "summary",
-      "type": "object"
+      "type": "string"
     },
     "parameters": {
       "description": "parameters",
-      "type": "object"
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
     },
     "requestBody": {
       "description": "request Body",
@@ -31,10 +34,20 @@ export const openApiListResponseSchema = {
     },
     "security": {
       "description": "security",
-      "type": "object"
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
     },
-    "tag": {
-      "description": "tag",
+    "tags": {
+      "description": "tags",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "description": {
+      "description": "description",
       "type": "string"
     }
   }

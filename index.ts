@@ -108,6 +108,18 @@ import {
 
 
 import {  
+  openApiFileRequestSchema,
+  openApiFileRequestValidator,
+} from "./openApiFileRequest";
+
+
+import {  
+  openApiFileResponseSchema,
+  openApiFileResponseValidator,
+} from "./openApiFileResponse";
+
+
+import {  
   openApiListRequestSchema,
   openApiListRequestValidator,
 } from "./openApiListRequest";
@@ -437,6 +449,10 @@ export {
   openApiDeleteRequestValidator,
   openApiDeleteResponseSchema,
   openApiDeleteResponseValidator,
+  openApiFileRequestSchema,
+  openApiFileRequestValidator,
+  openApiFileResponseSchema,
+  openApiFileResponseValidator,
   openApiListRequestSchema,
   openApiListRequestValidator,
   openApiListResponseSchema,
