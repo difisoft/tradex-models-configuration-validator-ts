@@ -54,6 +54,13 @@ exports.postAdminScopeGroupRequestSchema = {
                                                 "string"
                                             ]
                                         },
+                                        "sessionId": {
+                                            "description": "only use for vcsc rest",
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
                                         "serviceId": {
                                             "type": [
                                                 "null",
@@ -174,6 +181,13 @@ exports.postAdminScopeGroupRequestSchema = {
                                             ]
                                         },
                                         "connectionId": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "sessionId": {
+                                            "description": "only use for vcsc rest",
                                             "type": [
                                                 "null",
                                                 "string"
