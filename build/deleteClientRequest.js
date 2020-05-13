@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.deleteClientRequestValidator = exports.deleteClientRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.deleteClientRequestSchema = {
     "id": "http://tradex.techx.vn/configuration/deleteClientRequest",

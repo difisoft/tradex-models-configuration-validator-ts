@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.queryLocaleResponseValidator = exports.queryLocaleResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.queryLocaleResponseSchema = {
     "id": "http://tradex.techx.vn/configuration/queryLocaleResponse",

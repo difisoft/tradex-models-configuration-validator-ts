@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.deleteLoginMethodRequestValidator = exports.deleteLoginMethodRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.deleteLoginMethodRequestSchema = {
     "id": "http://tradex.techx.vn/configuration/deleteLoginMethodRequest",

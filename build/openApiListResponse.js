@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.openApiListResponseValidator = exports.openApiListResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.openApiListResponseSchema = {
     "id": "http://tradex.techx.vn/configuration/openApiListResponse",

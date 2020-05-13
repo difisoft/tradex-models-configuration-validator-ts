@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.queryLoginMethodByIdRequestValidator = exports.queryLoginMethodByIdRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.queryLoginMethodByIdRequestSchema = {
     "id": "http://tradex.techx.vn/configuration/queryLoginMethodByIdRequest",

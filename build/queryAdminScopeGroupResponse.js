@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.queryAdminScopeGroupResponseValidator = exports.queryAdminScopeGroupResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.queryAdminScopeGroupResponseSchema = {
     "id": "http://tradex.techx.vn/configuration/queryAdminScopeGroupResponse",

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.queryLocaleKeyByNameSpaceRequestValidator = exports.queryLocaleKeyByNameSpaceRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.queryLocaleKeyByNameSpaceRequestSchema = {
     "id": "http://tradex.techx.vn/configuration/queryLocaleKeyByNameSpaceRequest",

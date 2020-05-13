@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.querySystemClientResponseValidator = exports.querySystemClientResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.querySystemClientResponseSchema = {
     "id": "http://tradex.techx.vn/configuration/querySystemClientResponse",

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.putLocaleKeyTranslateRequestValidator = exports.putLocaleKeyTranslateRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.putLocaleKeyTranslateRequestSchema = {
     "id": "http://tradex.techx.vn/configuration/putLocaleKeyTranslateRequest",

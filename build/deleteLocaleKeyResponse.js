@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.deleteLocaleKeyResponseValidator = exports.deleteLocaleKeyResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.deleteLocaleKeyResponseSchema = {
     "id": "http://tradex.techx.vn/configuration/deleteLocaleKeyResponse",

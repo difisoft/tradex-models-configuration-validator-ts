@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.menuValidator = exports.menuSchema = void 0;
 const Ajv = require("ajv");
 exports.menuSchema = {
     "id": "http://tradex.techx.vn/configuration/menu",

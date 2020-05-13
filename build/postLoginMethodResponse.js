@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.postLoginMethodResponseValidator = exports.postLoginMethodResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.postLoginMethodResponseSchema = {
     "id": "http://tradex.techx.vn/configuration/postLoginMethodResponse",

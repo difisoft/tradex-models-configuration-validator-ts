@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.querySystemScopeRequestValidator = exports.querySystemScopeRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.querySystemScopeRequestSchema = {
     "id": "http://tradex.techx.vn/configuration/querySystemScopeRequest",

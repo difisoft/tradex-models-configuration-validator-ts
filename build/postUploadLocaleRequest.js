@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.postUploadLocaleRequestValidator = exports.postUploadLocaleRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.postUploadLocaleRequestSchema = {
     "id": "http://tradex.techx.vn/configuration/postUploadLocaleRequest",

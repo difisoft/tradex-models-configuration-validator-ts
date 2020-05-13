@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.querySignedDataToUploadResponseValidator = exports.querySignedDataToUploadResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.querySignedDataToUploadResponseSchema = {
     "id": "http://tradex.techx.vn/configuration/querySignedDataToUploadResponse",

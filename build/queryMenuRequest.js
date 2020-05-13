@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.queryMenuRequestValidator = exports.queryMenuRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.queryMenuRequestSchema = {
     "id": "http://tradex.techx.vn/configuration/queryMenuRequest",

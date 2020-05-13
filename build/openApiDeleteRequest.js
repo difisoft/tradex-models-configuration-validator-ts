@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.openApiDeleteRequestValidator = exports.openApiDeleteRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.openApiDeleteRequestSchema = {
     "id": "http://tradex.techx.vn/configuration/openApiDeleteRequest",

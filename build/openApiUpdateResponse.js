@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.openApiUpdateResponseValidator = exports.openApiUpdateResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.openApiUpdateResponseSchema = {
     "id": "http://tradex.techx.vn/configuration/openApiUpdateResponse",

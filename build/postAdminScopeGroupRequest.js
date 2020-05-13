@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.postAdminScopeGroupRequestValidator = exports.postAdminScopeGroupRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.postAdminScopeGroupRequestSchema = {
     "id": "http://tradex.techx.vn/configuration/postAdminScopeGroupRequest",

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.holidayListResponseValidator = exports.holidayListResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.holidayListResponseSchema = {
     "id": "http://tradex.techx.vn/configuration/holidayListResponse",

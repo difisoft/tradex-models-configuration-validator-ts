@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.scopeGroupResponseValidator = exports.scopeGroupResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.scopeGroupResponseSchema = {
     "id": "http://tradex.techx.vn/configuration/scopeGroupResponse",

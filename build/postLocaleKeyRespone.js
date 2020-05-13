@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.postLocaleKeyResponeValidator = exports.postLocaleKeyResponeSchema = void 0;
 const Ajv = require("ajv");
 exports.postLocaleKeyResponeSchema = {
     "id": "http://tradex.techx.vn/configuration/postLocaleKeyRespone",

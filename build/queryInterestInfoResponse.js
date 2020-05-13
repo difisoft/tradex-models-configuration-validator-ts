@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.queryInterestInfoResponseValidator = exports.queryInterestInfoResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.queryInterestInfoResponseSchema = {
     "id": "http://tradex.techx.vn/configuration/queryInterestInfoResponse",

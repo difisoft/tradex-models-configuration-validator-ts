@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.localeKeyValidator = exports.localeKeySchema = void 0;
 const Ajv = require("ajv");
 exports.localeKeySchema = {
     "id": "http://tradex.techx.vn/configuration/localeKey",

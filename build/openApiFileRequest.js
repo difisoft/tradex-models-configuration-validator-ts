@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.openApiFileRequestValidator = exports.openApiFileRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.openApiFileRequestSchema = {
     "id": "http://tradex.techx.vn/configuration/openApiFileRequest",

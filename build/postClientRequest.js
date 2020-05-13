@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.postClientRequestValidator = exports.postClientRequestSchema = void 0;
 const Ajv = require("ajv");
 exports.postClientRequestSchema = {
     "id": "http://tradex.techx.vn/configuration/postClientRequest",

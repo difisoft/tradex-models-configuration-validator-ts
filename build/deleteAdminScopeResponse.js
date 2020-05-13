@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.deleteAdminScopeResponseValidator = exports.deleteAdminScopeResponseSchema = void 0;
 const Ajv = require("ajv");
 exports.deleteAdminScopeResponseSchema = {
     "id": "http://tradex.techx.vn/configuration/deleteAdminScopeResponse",
