@@ -90,6 +90,12 @@ import {
 
 
 import {  
+  loginMethodStepResponseSchema,
+  loginMethodStepResponseValidator,
+} from "./loginMethodStepResponse";
+
+
+import {  
   menuSchema,
   menuValidator,
 } from "./menu";
@@ -443,6 +449,8 @@ export {
   localeKeyValidator,
   loginMethodResponseSchema,
   loginMethodResponseValidator,
+  loginMethodStepResponseSchema,
+  loginMethodStepResponseValidator,
   menuSchema,
   menuValidator,
   openApiDeleteRequestSchema,
